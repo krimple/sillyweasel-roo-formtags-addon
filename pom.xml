@@ -11,13 +11,13 @@
     </organization>
     <licenses>
         <license>
-            <name>&gt;GNU General Public License (GPL), Version 3.0</name>
-            <url>http://www.gnu.org/copyleft/gpl.html</url>
+            <name>Apache 2.0 License</name>
+            <url>https://raw.github.com/krimple/sillyweasel-roo-formtags-addon/master/legal/LICENSE.TXT</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
     <description>An add-on created by Spring Roo's addon creator feature.</description>
-    <url>http://www.some.company</url>
+    <url>http://www.rimple.com</url>
     <properties>
         <roo.version>1.2.1.RELEASE</roo.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -110,16 +110,22 @@
         </dependency>
     </dependencies>
     <scm>
-        <connection>scm:svn:https://${google.code.project.name}.googlecode.com/svn/trunk</connection>
-        <developerConnection>scm:svn:https://${google.code.project.name}.googlecode.com/svn/trunk</developerConnection>
-        <url>http://code.google.com/p/${google.code.project.name}/source/browse</url>
+        <connection>scm:git://github.com/krimple/sillyweasel-roo-formtags-addon/</connection>
+        <developerConnection>>scm:git://github.com/krimple/sillyweasel-roo-formtags-addon/</developerConnection>
+        <url>scm:git:git@github.com:krimple/sillyweasel-roo-formtags-addon.git</url>
     </scm>
-    <distributionManagement>
+
+      <distributionManagement>
         <repository>
-            <id>Google Code</id>
-            <url>dav:https://${google.code.project.name}.googlecode.com/svn/repo</url>
+          <id>repo</id>
+          <url>https://github.com/krimple/sillyweasel-roo-formtags-addon/raw/master/releases</url>
         </repository>
-    </distributionManagement>
+        <snapshotRepository>
+          <id>snapshot-repo</id>
+          <url>https://github.com/krimple/sillyweasel-roo-formtags-addon/raw/master/snapshots</url>
+        </snapshotRepository>
+      </distributionManagement>
+
     <build>
         <extensions>
             <extension>
