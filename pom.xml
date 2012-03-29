@@ -4,7 +4,7 @@
     <groupId>org.sillyweasel.formtags</groupId>
     <artifactId>formtags-addon</artifactId>
     <packaging>bundle</packaging>
-    <version>0.1.0.BUILD-SNAPSHOT</version>
+    <version>0.1.0.RELEASE</version>
     <name>sillyweasel-formtags-addon</name>
     <organization>
         <name>Your project/company name goes here (used in copyright and vendor information in the manifest)</name>
@@ -111,8 +111,8 @@
     </dependencies>
     <scm>
         <connection>scm:git://github.com/krimple/sillyweasel-roo-formtags-addon/</connection>
-        <developerConnection>>scm:git://github.com/krimple/sillyweasel-roo-formtags-addon/</developerConnection>
         <url>scm:git:git@github.com:krimple/sillyweasel-roo-formtags-addon.git</url>
+        <developerConnection>>scm:git://github.com/krimple/sillyweasel-roo-formtags-addon/</developerConnection>
     </scm>
 
       <distributionManagement>
