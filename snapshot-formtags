@@ -1,0 +1,1 @@
+mvn -DaltDeploymentRepository=snapshot-repo::default::file:../sillyweasel-maven-repos/snapshots clean deploy
