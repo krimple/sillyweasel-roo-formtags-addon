@@ -118,7 +118,8 @@
       <distributionManagement>
         <repository>
           <id>repo</id>
-          <url>https://github.com/krimple/sillyweasel-roo-formtags-addon/raw/master/releases</url>
+          <!--<url>https://github.com/krimple/sillyweasel-roo-formtags-addon/raw/master/releases</url>-->
+          <url>dav:https://repository-krimple.forge.cloudbees.com/release/</url>
         </repository>
         <snapshotRepository>
           <id>snapshot-repo</id>
